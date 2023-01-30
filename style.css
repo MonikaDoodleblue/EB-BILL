@@ -1,0 +1,82 @@
+@import "compass";
+/* @include border-radius(5px); */
+.wrapper {
+    width: 400px;
+    min-height: 300px;
+    margin: 50px auto;
+}
+
+.form-container {
+    float: left;
+    background-color: #CDCDCD;
+    padding: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-div {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.form-div span,
+.total-container span {
+    width: 100px;
+    float: left
+}
+
+.form-div input {
+    float: left;
+    width: 100%;
+    height: 30px;
+    /* @include border-radius(5px); */
+    padding: 5px;
+}
+
+.total-container {
+    float: left;
+    margin-top: 40px;
+}
+
+.total-container span {
+    float: left;
+    width: 20px;
+    font-size: 25px;
+}
+
+#total {
+    float: left;
+    height: 20px;
+    width: 100px;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+}
+
+#button-bt {
+    margin-left: 10px;
+    float: left;
+    height: 30px;
+}
+
+#clear-bt {
+    margin-left: 10px;
+    float: left;
+    height: 30px;
+}
+
+#error-container {
+    float: left;
+}
+
+#error {
+    clear: both;
+    margin-top: 20px;
+    float: left;
+}
